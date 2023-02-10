@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+}
+nav{
+    margin: 20px 22px 0 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: right;
+    color: white;
+}
+img[alt="burger"]{
+    width: 20px;
+    display: none;
+}
+.bg{
+    background-color: rgb(100, 100, 224);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.hero{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.hero .left{
+    color: white;
+}   
+.aaa{
+    display: flex;
+    justify-content: center;
+}
+.emoji{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 120px;
+}
+.emoji h3{
+    font-size: 40px;
+}
+.heading{
+    font-size: 30px;
+}
+.heading h2{
+    color: #c5c559;;
+}
+
+.project{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project .head p{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.project .project-list p{
+    color: white;
+    font-size: 15px;
+}
+.line1{
+    width: 135px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.contact-us{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us .heading3 p{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.contact-us .social img{
+    width: 30px;
+    margin-top: 25px;
+}
+.contact-us .social{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+.line2{
+    width: 200px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.emj{
+    width: 40px;
+}
+.img{
+    width: 450px;
+    margin-left: 10px;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.project-list .project img{
+    width: 270px;
+}
+
+@media screen and (max-width: 550px) {
+    nav ul{
+        display: none;
+    }
+    img[alt="burger"]{
+        display: block;
+        margin-left: 15px;
+    }
+    .hero{
+        display: block;
+    }
+    img[alt="pc-image"]{
+        width: 50vw;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .aaa{
+        display: block;
+    }
+    .emoji{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 30px;
+    }
+    .emoji h3{
+        font-size: 20px;
+    }
+    .heading h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .heading h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .project-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px; 
+    }
+    img[alt="project-image"]{
+        width: 55vw;
+    }
+    .project div h1{
+        font-size: 35px;
+    }
+    .contact-us div h1{
+        font-size: 35px;
+    }
+    .line1{
+        height: 10px;
+        width: 135px;
+        background-color: blue;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .line2{
+        height: 10px;
+        width: 195px;
+        background-color: blue;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+}
